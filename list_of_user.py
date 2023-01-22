@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 
 def lambda_handler(event, context):
-    session = boto3.Session(aws_access_key_id="AKIA2OLGZXFFDIN7ZVV5",aws_secret_access_key="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")
+    session = boto3.Session(aws_access_key_id="AKIA**************",aws_secret_access_key="hiZ2pp+****************")
     
     resource = session.resource('iam')
     client = session.client('iam')
